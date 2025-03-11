@@ -37,7 +37,7 @@
         <p>Please wait while we redirect you...</p>
 
         <!-- Countdown Timer -->
-        <p class="countdown" id="countdown">Redirecting in <span id="timer">30</span> seconds...</p>
+        <p class="countdown" id="countdown">Redirecting in <span id="timer">10</span> seconds...</p>
     </div>
 
     <script>
@@ -48,7 +48,7 @@
         function startCountdown() {
             document.getElementById("countdown").style.display = "block";
 
-            let timeLeft = 30;
+            let timeLeft = 10;
             let timer = document.getElementById("timer");
 
             let countdownInterval = setInterval(function() {
